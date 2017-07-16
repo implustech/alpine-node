@@ -15,13 +15,13 @@
 ## Examples
 
 ```sh
-$ docker run implustech/alpine-node node --version
+$ docker run implustechnology/alpine-node node --version
 v8.1.4
 
-$ docker run implustech/alpine-node npm --version
+$ docker run implustechnology/alpine-node npm --version
 5.2.0
 
-$ docker run implustech/alpine-node yarn --version
+$ docker run implustechnology/alpine-node yarn --version
 0.27.5
 ```
 
