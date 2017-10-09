@@ -1,12 +1,12 @@
 FROM alpine:3.6
 MAINTAINER jiale@implustech.com
 
-ENV VERSION=v8.1.4 NPM_VERSION=5 YARN_VERSION=latest
+ENV VERSION=v8.6.0 NPM_VERSION=5 YARN_VERSION=latest
 
 # For base builds
 # ENV CONFIG_FLAGS="--fully-static --without-npm" DEL_PKGS="libstdc++" RM_DIRS=/usr/include
 
-RUN apk add --no-cache curl make gcc g++ python linux-headers binutils-gold gnupg libstdc++ && \
+RUN apk add --no-cache docker curl make gcc g++ python linux-headers binutils-gold gnupg libstdc++ && \
   gpg --keyserver ha.pool.sks-keyservers.net --recv-keys \
     94AE36675C464D64BAFA68DD7434390BDBE9B9C5 \
     FD3A5288F042B6850C66B31F09FE44734EB7990E \
