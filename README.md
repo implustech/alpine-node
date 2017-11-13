@@ -3,13 +3,15 @@
 ## Tags
 
 - With npm and yarn
-  - latest, 8, 8.1, 8.1.4
+  - latest, 9, 9.0, 9.0.0
+  - 8, 8.1, 8.1.4
 
 - With npm
   - 6, 6.11, 6.11.1
 
 - Only node
-  - base, base-8, base-8.1, base-8.1.4
+  - base, base-9, base-9.0, base-9.0.0
+  - base-8, base-8.1, base-8.1.4
   - base-6, base-6.11, base-6.11.1
 
 ## Examples
