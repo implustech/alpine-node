@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:10.13.0
+FROM mhart/alpine-node:12.3.1
 MAINTAINER jiale@implustech.com
 
 RUN apk add --no-cache docker openssh-client 
