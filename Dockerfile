@@ -1,5 +1,5 @@
-FROM mhart/alpine-node:12.3.1
-MAINTAINER jiale@implustech.com
+FROM mhart/alpine-node:12.14.1
+LABEL maintainer="jiale@implustech.com"
 
-RUN apk add --no-cache docker openssh-client 
+RUN apk add --no-cache git docker openssh-client 
 
