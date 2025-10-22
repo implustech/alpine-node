@@ -1,14 +1,14 @@
 # Alpine Node.js docker image
 
 ## Tags
+- With npm and yarn and internal npm registry
+  - 12.16.3-with-registry-build: carry docker/git/openssl-client mainly used as a base image in .gitlab-ci
 
 - With npm and yarn
-
   - latest, 9, 9.0, 9.0.0
   - 8, 8.1, 8.1.4
 
 - With npm
-
   - 12.14.1
   - 10.13.0
   - 6, 6.11, 6.11.1
