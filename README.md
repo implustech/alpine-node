@@ -3,6 +3,7 @@
 ## Tags
 - With npm and yarn and internal npm registry
   - 12.16.3-with-registry-build: carry docker/git/openssl-client mainly used as a base image in .gitlab-ci
+  - 12.16.3-with-registry
 
 - With npm and yarn
   - latest, 9, 9.0, 9.0.0

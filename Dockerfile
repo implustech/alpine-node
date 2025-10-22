@@ -3,5 +3,4 @@ LABEL maintainer="jiale@implustech.com"
 # use internal cache npm registry mainly to avoid being affected by external package unexpected changes
 RUN npm set registry http://npm-registry.implustool.com
 RUN yarn config set registry http://npm-registry.implustool.com
-RUN apk add --no-cache git docker openssh-client 
 
